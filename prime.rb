@@ -1,7 +1,5 @@
-def prime? 
-  prime = [2]
-  prime.each do |a|
-    if a % 2 == 0 
+def prime? (2)
+    if 2 % 2 == 0 
       return true 
     else 
       return false 
